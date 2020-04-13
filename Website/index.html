@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.15.0/d3.min.js"></script>
         <title>
             Quick Multiplication Game
         </title>
@@ -8,7 +9,7 @@
     <body>
         <p id = "prompt">
             <center>
-                What is 8 multiplied by 8
+               <div> What is <span id = "num1" > E </span> multiplied by <span id = "num2"> E </span></div> 
             </center>
         </p>
         <p id = "inputrow">
@@ -17,5 +18,7 @@
                 <button id = "submit"> Submit </button>
             </center>
         </p>
+        <p id = "response"></p>
+        <script src = "script.js" type = "text/javascript"> </script>
     </body>
 </html>
