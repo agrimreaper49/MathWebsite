@@ -29,6 +29,6 @@ function checkAnswers () {
     if ( parseInt(guess.value) == answer ){
         response.innerHTML = "yes!"; 
     }else{
-        response.innerHTML = "no!"
+        response.innerHTML = "no!";
     }
 }
